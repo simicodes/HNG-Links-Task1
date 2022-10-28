@@ -9,12 +9,12 @@ function Links() {
             Zuri Training
           </button>
         </a>
-        <a href="http://books.zuri.team">
+        <a href="https://books.zuri.team">
           <button id="books" className="btn">
             Zuri Books
           </button>
         </a>
-        <a href="https://books.zuri.team/python-for-beginners?ref_id=simeonoffiong">
+        <a href="https://books.zuri.team/python-for-beginners?ref_id=OffiongDev">
           <button id="book__python" className="btn">
             Python Book
           </button>
