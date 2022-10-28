@@ -1,6 +1,8 @@
 #links-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn {
@@ -24,10 +26,58 @@
   transition: 500ms;
 }
 
+.icons {
+  display: flex;
+  gap: 12px;
+  margin: 40px 0px 60px 0px;
+  cursor: pointer;
+}
+
+.horizontal_line {
+  height: 1px;
+  width: 1152px;
+  background: #eaecf0;
+  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 300px;
+  margin-bottom: 20px;
+}
+.footer,
+p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #667085;
+}
+
 @media only screen and (max-width: 600px) {
   .btn {
-    width: 90%;
-    padding: 30px 0;
+    width: 343px;
+    height: 68px;
+  }
+
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .horizontal_line {
+    width: 343px;
+    height: 1px;
   }
 
   #link-container {

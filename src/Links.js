@@ -1,4 +1,8 @@
 import "./Links.css";
+import ZuriIcon from "./ZuriIcon.svg";
+import I4GIcon from "./I4GIcon.svg";
+import GithubIcon from './GitHubIcon.svg'
+import SlackIcon from "./slackIcon.svg"
 
 function Links() {
   return (
@@ -29,6 +33,28 @@ function Links() {
             Book designs
           </button>
         </a>
+        <div className="icons">
+          <img src={SlackIcon} alt="slack" id="Simicodes" />
+          <a
+            href="https://github.com/simicodes"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={GithubIcon} alt="github" />
+          </a>
+        </div>
+        <div className="horizontal_line" />
+        <div className="footer">
+          <div>
+            <img src={ZuriIcon} alt="zuriLogo" />
+          </div>
+          <div>
+            <p>HNG Internship 9 Frontend Task</p>
+          </div>
+          <div>
+            <img src={I4GIcon} alt="I4GLogo" />
+          </div>
+        </div>
       </div>
     </>
   );
