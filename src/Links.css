@@ -4,14 +4,18 @@
 }
 
 .btn {
-  padding: 13px 50px;
-  width: 80%;
-  margin: 4px 0;
-  border-width: 0;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
+  padding: 24px 32px;
+  gap: 8px;
+  width: 1152px;
+  height: 76px;
   color: #101828;
+  font-weight: 600;
+  font-size: 18px;
+  background: #eaecf0;
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
   font-family: "Inter", sans-serif;
 }
 
