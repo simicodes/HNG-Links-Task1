@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   margin-top: 5%;
+  font-family: "Inter", sans-serif;
 }
 
 #slack {
@@ -27,6 +28,10 @@
   left: 40%;
 }
 
+/* .header_div:hover #ig-icon {
+  display: block;
+  z-index: 10;
+} */
 
 #twitter {
   font-family: "Inter", sans-serif;
