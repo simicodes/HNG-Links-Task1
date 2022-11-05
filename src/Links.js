@@ -3,6 +3,7 @@ import ZuriIcon from "./ZuriIcon.svg";
 import I4GIcon from "./I4GIcon.svg";
 import GithubIcon from './GitHubIcon.svg'
 import SlackIcon from "./slackIcon.svg"
+import { Link } from "react-router-dom";
 
 function Links() {
   return (
@@ -33,6 +34,11 @@ function Links() {
             Book designs
           </button>
         </a>
+        <Link to="/contact">
+          <button id="contact" className="btn">
+            Contact Me
+          </button>
+        </Link>
         <div className="icons">
           <img src={SlackIcon} alt="slack" id="Simicodes" />
           <a
