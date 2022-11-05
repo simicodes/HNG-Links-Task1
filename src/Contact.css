@@ -53,22 +53,16 @@ form {
 }
 
 label {
-  /* width: 71px; */
   height: 20px;
-
-  /* Text sm/Medium */
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  /* line-height: 20px; */
 }
 
 input {
   width: 720px;
   height: 44px;
   border: 1px solid #d0d5dd;
-  /* Shadow/xs */
-
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 }
@@ -78,9 +72,6 @@ input::placeholder {
   height: 108px;
   color: #667085;
   margin-left: 10px;
-
-  /* Text md/Normal */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -93,8 +84,6 @@ textarea::placeholder {
   width: 692px;
   height: 108px;
   margin-left: 10px;
-  /* Text md/Normal */
-
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
@@ -113,45 +102,29 @@ textarea::placeholder {
 #checkbox {
   width: 20px;
   height: 20px;
-
-  /* Base/White */
-
   background: #ffffff;
-  /* Gray/300 */
-
   border: 1px solid #d0d5dd;
   border-radius: 6px;
 }
 
 textarea {
-  /* Remove defaylt styling */
   border: none;
   overflow: auto;
   outline: none;
-
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
-
-  /* Auto layout */
-
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: flex-start;
   padding: 12px 14px;
   gap: 8px;
   resize: none;
-  /* width: 720px; */
-  width: 97%;
+  width: 720px;
   height: 132px;
-
-  /* Base/White */
   background: #ffffff;
-  /* Gray/300 */
-
   border: 1px solid #d0d5dd;
-  /* Shadow/xs */
-
   box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
   border-radius: 8px;
 }
@@ -190,7 +163,6 @@ textarea:required:focus {
     align-items: flex-start;
     padding: 0px 16px;
     gap: 48px;
-
     width: 375px;
     height: 884px;
     overflow-x: hidden;
