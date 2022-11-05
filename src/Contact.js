@@ -19,7 +19,7 @@ function Contact() {
                 <div id="first-name-container">
                   <label>First Name</label>
                   <input
-                    id="first-name"
+                    id="first_name"
                     placeholder="Enter your first name"
                     required
                   />
@@ -27,8 +27,8 @@ function Contact() {
                 <div id="second-name-container">
                   <label>Last Name</label>
                   <input
-                    id="last-name"
-                    placeholder="Enter your first name"
+                    id="last_name"
+                    placeholder="Enter your last name"
                     required
                   />
                 </div>
@@ -38,18 +38,22 @@ function Contact() {
                 <label>Email</label>
                 <input type="email" placeholder="yourname@email.com" required />
               </div>
-              <div id="message-textarea" className="inputs">
+              <div id="message" className="inputs">
                 <label>Message</label>
-                <textarea placeholder="send me a message" required />
+                <textarea
+                  placeholder="Send me a message and I'll reply you as soon as possible..."
+                  required
+                />
               </div>
               <div id="checkbox-area" className="inputs">
                 <input type="checkbox" id="checkbox" required />
                 <p>
-                  You agree to providing your data to Marv who may contact you
+                  You agree to providing your data to Simeon Offiong who may
+                  contact you.
                 </p>
               </div>
               <div id="submit-btn-section" className="inputs">
-                <button className="submit-btn">Send Message</button>
+                <button id="btn__submit">Send Message</button>
               </div>
             </form>
           </div>
