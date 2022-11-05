@@ -5,6 +5,7 @@
   padding: 64px 0px 0px 0px;
   gap: 64px;
   margin-top: -5%;
+  overflow-y: hidden;
 }
 
 #contact-me {
