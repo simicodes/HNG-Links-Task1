@@ -12,14 +12,14 @@ function Contact() {
           <div id="contact-header">
             <h2 id="contact-me">Contact Me</h2>
             <p id="contact-me-text">
-              Hi there, contact me to ask me about anything you have in mind
+              Hi there, contact me to ask me about anything you have in mind.
             </p>
           </div>
           <div id="form-container">
             <form>
               <div id="name-row" className="inputs">
                 <div id="first-name-container">
-                  <label>First Name</label>
+                  <label>First name</label>
                   <input
                     id="first_name"
                     placeholder="Enter your first name"
@@ -27,7 +27,7 @@ function Contact() {
                   />
                 </div>
                 <div id="second-name-container">
-                  <label>Last Name</label>
+                  <label>Last name</label>
                   <input
                     id="last_name"
                     placeholder="Enter your last name"
@@ -55,7 +55,7 @@ function Contact() {
                 </p>
               </div>
               <div id="submit-btn-section" className="inputs">
-                <button id="btn__submit">Send Message</button>
+                <button id="btn__submit">Send message</button>
               </div>
             </form>
           </div>
