@@ -1,6 +1,8 @@
 import React from "react";
 import "./App.css";
 import "./Contact.css";
+import ZuriIcon from "./ZuriIcon.svg";
+import I4GIcon from "./I4GIcon.svg";
 
 function Contact() {
   return (
@@ -56,6 +58,18 @@ function Contact() {
                 <button id="btn__submit">Send Message</button>
               </div>
             </form>
+          </div>
+        </div>
+        <div className="horizontal_line" />
+        <div className="footer">
+          <div>
+            <img src={ZuriIcon} alt="zuriLogo" />
+          </div>
+          <div>
+            <p>HNG Internship 9 Frontend Task</p>
+          </div>
+          <div>
+            <img src={I4GIcon} alt="I4GLogo" />
           </div>
         </div>
       </div>
